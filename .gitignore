@@ -3,6 +3,11 @@
 # dependencies
 node_modules/
 
+# mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # Expo
 .expo/
 dist/
