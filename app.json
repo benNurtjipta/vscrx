@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "vscrx2",
+    "name": "vscrx",
     "slug": "vscrx2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icons/icon.png",
-
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -17,7 +16,8 @@
         "foregroundImage": "./assets/icons/icon-adaptive.png",
         "backgroundColor": "#4B0082"
       },
-      "icon": "./assets/icons/icon.png"
+      "icon": "./assets/icons/icon.png",
+      "package": "com.citycountrycity.vscrx2"
     },
     "web": {
       "bundler": "metro",
@@ -27,9 +27,19 @@
     "splash": {
       "backgroundColor": "#2EA2FA"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7b425816-8a4f-4d11-9861-0c149b6039c1"
+      }
     }
   }
 }
